@@ -1,20 +1,11 @@
-import Button from './componentes/Button/Button';
-
+import TailwindText from './componentes/Text/Text';
 
 function App() {
-  // const items = ["React", "JavaScript", "Vite"];
-
   return (
-    <>
-      <Button>
-        <p>Gris</p>
-      </Button>
-
-      <Button blue>
-        <p>Azul</p>
-      </Button>
-    </>
+    <div>
+      <TailwindText />
+    </div>
   );
 }
 
-export default App
+export default App;
