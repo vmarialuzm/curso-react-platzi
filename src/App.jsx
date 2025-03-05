@@ -1,6 +1,7 @@
 import Card from './componentes/Card';
 import Counter from './componentes/Counter';
 import ToggleButton from './componentes/ToggleButton';
+import NameForm from './componentes/NameForm';
 
 import './App.css'
 
@@ -9,17 +10,8 @@ function App() {
 
   return (
     <>
-      {/* <h1>¡Hola Mundo!</h1>
-      <Card title="Card 1" description="Esta es una descripción" /> */}
-      {/* <Counter /> */}
-      <ToggleButton />
-      {/* <ul>
-        {
-          items.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))
-        }
-      </ul> */}
+      <h1>Formulario de Nombre:</h1>
+      <NameForm />
     </>
   );
 }
