@@ -1,11 +1,18 @@
-import styles from './Card.module.scss';
+// import styles from './Card.module.scss';
 
 const Card = () => {
-  return (
-    <div className={styles.card}>
-      Soy una card
-    </div>
-  );
+
+    const textStyles = {
+        color: "blue",
+        fontSize: "2rem",
+        textAlign: "center"
+      };
+
+    return (
+        <div style={textStyles}>
+        Soy una card
+        </div>
+    );
 };
 
 export default Card;

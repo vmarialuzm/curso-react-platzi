@@ -1,4 +1,4 @@
-import Card from './componentes/Card/Card';
+import Button from './componentes/Button/Button';
 
 
 function App() {
@@ -6,7 +6,13 @@ function App() {
 
   return (
     <>
-      <Card />
+      <Button>
+        <p>Gris</p>
+      </Button>
+
+      <Button blue>
+        <p>Azul</p>
+      </Button>
     </>
   );
 }
