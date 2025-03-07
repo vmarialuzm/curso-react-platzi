@@ -1,9 +1,9 @@
-import TailwindText from './componentes/Text/Text';
+import StaticComponent from "./componentes/StaticComponent/StaticComponent";
 
 function App() {
   return (
     <div>
-      <TailwindText />
+      <StaticComponent />
     </div>
   );
 }
