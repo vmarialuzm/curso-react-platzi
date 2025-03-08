@@ -1,11 +1,9 @@
-import StaticComponent from "./componentes/StaticComponent/StaticComponent";
-import UserListWithLoading from "./componentes/UserListWithLoading/UserListWithLoading";
+import SearchPosts from "./componentes/SearchPosts/SearchPosts";
 
 function App() {
   return (
     <div>
-      <StaticComponent />
-      <UserListWithLoading />
+      <SearchPosts />
     </div>
   );
 }
