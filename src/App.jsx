@@ -1,9 +1,9 @@
-import SearchPosts from "./componentes/SearchPosts/SearchPosts";
+import Counter from "./componentes/Counter/Counter";
 
 function App() {
   return (
     <div>
-      <SearchPosts />
+      <Counter />
     </div>
   );
 }
